@@ -1,0 +1,219 @@
+.head {
+    text-align: center;
+}
+
+.btt {
+    border: none;
+    background-color: rgb(20, 19, 19);
+    padding: 10px;
+    color: white;
+}
+
+.left {
+
+    width: 60%;
+    float: left;
+    height: auto;
+
+}
+
+.one {
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+.left img {
+    width: 100%;
+}
+
+.butt {
+    border: none;
+    padding: 10px;
+}
+
+.butt:hover {
+    background-color: rgb(187, 181, 181);
+}
+
+.butt1 {
+    border: none;
+    padding: 10px;
+}
+
+.butt1:hover {
+    background-color: rgb(187, 181, 181);
+}
+
+
+.right {
+
+    float: right;
+    width: 38%;
+    height: auto;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+.right img {
+    width: 100%;
+}
+
+
+.card {
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+.t1 img {
+    width: 60px;
+    height: 60px;
+}
+
+.t1 {
+
+    display: flex;
+    padding: 10px;
+
+}
+
+.t1:hover {
+    background-color: rgb(200, 194, 194);
+}
+
+.t2 {
+
+    display: flex;
+    padding: 10px;
+
+}
+
+.t2 img {
+    width: 60px;
+    height: 60px;
+}
+
+.t2:hover {
+    background-color: rgb(200, 194, 194);
+}
+
+.t3 {
+
+    display: flex;
+    padding: 10px;
+}
+
+.t3 img {
+    width: 60px;
+    height: 60px;
+}
+
+.t3:hover {
+    background-color: rgb(200, 194, 194);
+}
+
+.blo {
+    text-align: left;
+
+}
+
+.blo1 {
+    text-align: left;
+}
+
+.blo2 {
+    text-align: left;
+}
+
+.tag {
+    background-color: black;
+    color: white;
+
+
+}
+
+.tag1 {
+    background-color: rgb(230, 224, 224);
+    color: black;
+}
+
+.tags span {
+    margin: 20px;
+    padding: 2px;
+}
+
+.tags {
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.tags>p {
+    margin: 2px;
+}
+
+footer {
+    background-color: gray;
+    padding: 30px;
+    width: 100%;
+}
+
+.butt2 {
+    padding: 20px;
+    border: none;
+    background-color: rgb(80, 76, 76);
+}
+
+.butt3 {
+    padding: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.butt2:hover {
+    background-color: rgb(161, 157, 157);
+}
+
+.butt3:hover {
+    background-color: rgb(149, 147, 147);
+}
+
+.p1 {
+    float: right;
+    padding: 7px;
+    margin: 5px;
+    font-size: 20px
+}
+
+.s1 {
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+
+.p2 {
+    float: right;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 20px
+}
+
+.s2 {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.t-tags {
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+@media screen and (max-width:768px) {
+    .left {
+        display: block;
+        width: 100%;
+    }
+
+    .right {
+        display: block;
+        width: 100%;
+    }
+}
